@@ -1,0 +1,67 @@
+body{
+    background: #006363;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+.encabezado {
+    display: flex;
+    background:#009999;
+}
+.imagen{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.titulo {
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin:20px;
+}
+.subtitulo {
+    font-size: 35px;
+    color: whitesmoke;
+    margin: 20px;
+}
+.menu{
+    background-color:#1D7373 ;
+}
+#boton {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1D7373;
+}
+#boton li {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#boton li:hover{
+    background-color: #33CCCC;
+}
+.Perfil {
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: justify;
+    margin:20px;
+}
+.Info_per{
+    background-color: #009999;
+}
+.Academica{
+    background-color: #009999;
+}
+.Laboral{
+    background-color: #009999;
+}
+.Habilidades{
+    background-color: #009999;
+}
