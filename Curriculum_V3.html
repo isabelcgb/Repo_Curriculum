@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Curriculum Isabel Guillén</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="encabezado">
+            <img src="https://i.pinimg.com/originals/19/87/90/198790eb7e08830027c1ae1686496c72.png" class="imagen">
+            <div class="nombres">
+                <p class="titulo">Isabel Guillén Barres</p>
+                <p class="subtitulo">Urbanista</p>
+            </div>
+        </div>
+       <div class="menu">
+           <ul id="boton">
+               <li>Perfil</li>
+               <li>Formación Academica</li>
+               <li>Experiencia Laboral</li>
+               <li>Habilidades</li>
+            </ul>
+       </div>
+       <div class="Perfil">
+           <p>Profesional de la rama de Urbanismo, en busqueda de trabajo, persona trabajadora, puntual, aplicada y sociable. Con experiencia en trabajos en equipo, planificación, manejo de personal, atención al público, entre otros. </p>
+       </div>
+       <div class="Academica">
+            <h3 class="h3">Formación Academica</h3>
+            <ul>
+                <li>Bachiller en Ciencias (2004-2009)</li>
+                <li>Urbanista (2010-2018)</li>
+                <li>Master Gis (2020 - Actualidad)</li>
+                <br>
+            </ul>
+       </div>
+       <div class="Laboral">
+           <h3 class="h3">Experiencia Laboral</h3>
+           <ul>
+               <li>Directora de Eventos (2017-2018)</li>
+               <li>Coordinadora de Eventos (2015-2017)</li>
+               <li>Auxiliar en sala de geomática (2015-2018))</li>
+               <br>
+            </ul>
+        </div>
+        <div class="Habilidades">
+            <h3 class="h3">Habilidades Laborales</h3>
+            <ul>
+                <li>Microsoft Office</li>
+                <li>AutoCad 2D</li>
+                <li>Adobe Photoshop</li>
+                <li>Sketch up</li>
+                <li>ArcGis</li>
+                <br>
+            </ul>
+        </div>
+        <div class="Comentarios">
+            <h3 class="h3">Comentarios</h3>
+            <p>Si tienes alguna propuesta de proyecto y/o trabajo comenta a continuación:           </p>
+            <input for ="Nombre1" type="text" class="nombre" onfocus="cambioFoco()" onfocusout="cambioNOFoco()"/>
+            <button id= "BotonGuardar">Guardar</button>
+
+       </div>
+        <div id="sidemenu" class="menu-collapsed">  
+        <div id="header">
+            <div id="title"><span></span></div>
+            <div id="menu-btn">
+                <div class="btn-hamburguer"></div>
+                <div class="btn-hamburguer"></div>
+                <div class="btn-hamburguer"></div>
+            </div>            
+        </div>
+
+        <div id="profile">
+            <div id="photo"><img src="https://i.pinimg.com/originals/19/87/90/198790eb7e08830027c1ae1686496c72.png" alt=""></div>
+            <div id="name"><span>Isabel Guillén</span></div>
+        </div>
+        
+        <div id="menu-items">
+            <div class="item">
+                <a href="#">
+                    <div class="icon"><img src="https://thumbs.dreamstime.com/b/icono-de-ubicaci%C3%B3n-mapa-direcci%C3%B3n-posici%C3%B3n-geogr%C3%A1fica-dise%C3%B1o-elementos-creativos-la-colecci%C3%B3n-iconos-del-mercado-valores-170317745.jpg"></div>
+                    <div class="title"><span>Ubicación: España, Guipuzcoa.</span></div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="icon"><img src="data:image/jpeg;base64,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"></div>
+                    <div class="title"><span>Teléfono: (+34)555555</span></div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="icon"><img src="https://asercoimagen.com/wp-content/uploads/2017/09/88e50689fa3280c748d000aaf0bad480-correo-electr-nico-icono-redondo-1-by-vexels.png"></div>
+                    <div class="title"><span>Correo: Isabel.gbc@gmail.com</span></div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="icon"><img src="https://www.abd.es/wp-content/uploads/2018/04/principal.png"></div>
+                    <div class="title"><span>Skype: Isabel_cgb</span></div>
+                </a>
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+    </body>
+</html>
